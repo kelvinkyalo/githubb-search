@@ -1,11 +1,12 @@
-import { Injectable } from '@angular/core';
-import { Http, Headers } from '@angular/http';
-import 'rxjs/add/operator/map'; 
+// import { Injectable } from '@angular/core';
+// import { Http, Headers } from '@angular/http';
+// import 'rxjs/add/operator/map'; 
 
-@Injectable({
-  providedIn: 'root'
-})
-export class BioService {
+// @Injectable({
+//   providedIn: 'root'
+// })
+// export class BioService {
+//   getBioInfo: any;
 
-  
-  }
+
+//   }
