@@ -6,7 +6,7 @@ import 'rxjs/add/operator/map';
   providedIn: 'root'
 })
 export class BioService {
-  //   getBioInfo: any;
+  
   private username: string;
   private clientid = 'eb2e72fd0b231f431b5b';
   private clientsecret = '8cc2493fbf6129392085fefc07af8e11faa57fa2';
