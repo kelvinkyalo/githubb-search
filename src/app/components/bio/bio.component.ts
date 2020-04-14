@@ -8,9 +8,12 @@ import { BioService } from '../../services/bio.service';
 })
 export class BioComponent implements OnInit {
 
+  bio:any[];
+
   constructor(private bioService:BioService) { 
     this.bioService.getBioInfo().subscribe(bio =>{
       console.log(bio);
+      this.bio = bio;
     });
   }
 
