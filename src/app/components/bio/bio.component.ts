@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-// import { BioService } from '../../services/bio.service';
+import { BioService } from '../../services/bio.service';
+
 @Component({
   selector: 'app-bio',
   templateUrl: './bio.component.html',
@@ -7,14 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BioComponent implements OnInit {
 
-  constructor(){}
-  // constructor(private bioService:BioService) { 
-  //   this.bioService.getBioInfo().subscribe(bio =>{
-  //     console.log(bio);
-  //   })
-  
+  constructor(private bioService:BioService) { 
+    this.bioService.getBioInfo().subscribe(bio =>{
+      console.log(bio);
+    });
+  }
 
   ngOnInit() {
   }
-
 }

@@ -11,11 +11,11 @@ import { BioComponent } from './components/bio/bio.component';
 @NgModule({
   declarations: [
     AppComponent,
-    BioComponent,
-    HttpModule
+    BioComponent   
   ],
   imports: [
     BrowserModule,
+    HttpModule
     // AppRoutingModule
   ],
   providers: [BioService],
