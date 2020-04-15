@@ -8,7 +8,7 @@
 
 A website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories
 
-Click <a href="https://candycrushpro.github.io/Github-search/">here</a> to my live site on GitHub where a repository of my work is.
+Click <a href="https://kelvinkyalo.github.io/githubb-search/">here</a> to my live site on GitHub where a repository of my work is.
 
 ## Technologies used to make the Github-search App are;
 
